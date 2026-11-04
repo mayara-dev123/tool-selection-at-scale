@@ -1,0 +1,7 @@
+hf_local/
+cache/
+data/
+results/
+__pycache__/
+*.pyc
+.venv/

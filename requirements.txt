@@ -1,0 +1,5 @@
+datasets>=2.18
+sentence-transformers>=2.7
+torch
+numpy
+matplotlib
