@@ -1,0 +1,14 @@
+\begin{tabular}{lccccc}
+\toprule
+ & & \multicolumn{2}{c}{\textbf{User request reworded}} & \multicolumn{2}{c}{\textbf{Tool description reworded}} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+\textbf{Method} & \textbf{Recall@5 before} & \textbf{Recall@5 after} & \textbf{Top tool changed} & \textbf{Recall@5 after} & \textbf{Top tool changed} \\
+\midrule
+BM25 & 45.8\% & 38.1\% & 51.1\% & 41.3\% & 14.0\% \\
+Dense (bi-encoder) & 45.2\% & 44.5\% & 30.1\% & 45.7\% & 7.2\% \\
+ToolLLM retriever & 41.9\% & 38.8\% & 44.7\% & 41.6\% & 9.3\% \\
+ToolRet-trained dense & 53.0\% & 50.0\% & 36.9\% & 52.9\% & 10.7\% \\
+Dense + cross-encoder & 45.7\% & 43.2\% & 45.7\% & 43.7\% & 13.1\% \\
+LLM rewrite + dense & 48.9\% & 47.5\% & 35.8\% & 49.8\% & 9.4\% \\
+\bottomrule
+\end{tabular}

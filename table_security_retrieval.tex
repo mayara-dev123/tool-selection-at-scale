@@ -1,0 +1,14 @@
+\begin{tabular}{lcccc}
+\toprule
+ & \multicolumn{2}{c}{\textbf{Competing clone}} & \multicolumn{2}{c}{\textbf{Shadow query}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+\textbf{Method} & \textbf{Ranked first} & \textbf{In first five} & \textbf{Ranked first} & \textbf{In first five} \\
+\midrule
+BM25 & 7.7\% & 41.3\% & 90.5\% & 97.9\% \\
+Dense (bi-encoder) & 14.7\% & 45.2\% & 73.2\% & 91.8\% \\
+ToolLLM retriever & 7.4\% & 34.8\% & 45.9\% & 67.2\% \\
+ToolRet-trained dense & 5.7\% & 44.9\% & 65.9\% & 94.8\% \\
+Dense + cross-encoder & 12.4\% & 42.0\% & 91.7\% & 95.6\% \\
+LLM rewrite + dense & 18.8\% & 49.3\% & 53.3\% & 77.9\% \\
+\bottomrule
+\end{tabular}
